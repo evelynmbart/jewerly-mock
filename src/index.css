@@ -6,3 +6,8 @@
 button {
   cursor: pointer;
 }
+
+html {
+  background-color: white;
+  margin: 3px;
+}

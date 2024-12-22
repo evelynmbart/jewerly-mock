@@ -10,10 +10,10 @@ export function Navbar() {
     <Nav>
       <Left>
         <LocationOnOutlinedIcon />
-        <div style={{ marginTop: "5px" }}>USA</div>
+        <div>USA</div>
       </Left>
-      <Middle className="middle">AURUM</Middle>
-      <Right className="right">
+      <Middle>AURUM</Middle>
+      <Right>
         <SearchOutlinedIcon />
         <FavoriteBorderOutlinedIcon />
         <ShoppingBagOutlinedIcon />
@@ -32,10 +32,16 @@ const Nav = styled.nav`
 const Left = styled.div`
   display: flex;
   align-items: center;
-  font-size: 20px;
+  font-size: 15px;
   gap: 10px;
+  font-family: "Funnel Sans", serif;
 `;
-const Middle = styled.div``;
+const Middle = styled.div`
+  font-size: 30px;
+  display: flex;
+  align-items: end;
+  font-family: "Source Serif 4", serif;
+`;
 
 const Right = styled.div`
   display: flex;
