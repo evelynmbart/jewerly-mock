@@ -10,7 +10,7 @@ export function Navbar() {
     <Nav>
       <Left>
         <LocationOnOutlinedIcon />
-        USA
+        <div style={{ marginTop: "5px" }}>USA</div>
       </Left>
       <Middle className="middle">AURUM</Middle>
       <Right className="right">
@@ -29,7 +29,12 @@ const Nav = styled.nav`
   justify-content: space-between;
   margin: 1% 2%;
 `;
-const Left = styled.div``;
+const Left = styled.div`
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  gap: 10px;
+`;
 const Middle = styled.div``;
 
 const Right = styled.div`
