@@ -78,7 +78,7 @@ const Right = styled.div`
 `;
 const Box = styled.div`
   border: 1px solid grey;
-  width: 100%;
+  width: 90%;
   height: 39.75%;
   padding: 40px;
 `;
