@@ -75,7 +75,7 @@ export function BestSellers() {
             <ItemCard key={item.id}>
               <Image src={item.src} />
               <Text>
-                <h3>{item.name}</h3>
+                <h3 style={{ cursor: "pointer" }}>{item.name}</h3>
                 <p>${item.price}</p>
               </Text>
             </ItemCard>
@@ -93,7 +93,6 @@ const Container = styled.div`
 const Title = styled.div`
   font-size: 50px;
   border-bottom: 1px solid grey;
-  margin: 10px;
   font-family: Source Serif 4, serif;
   padding: 10px 40px;
 `;
@@ -104,7 +103,7 @@ const Items = styled.div`
 `;
 const ItemCard = styled.div`
   height: 450px;
-  width: 321px;
+  width: 353px;
   border: 1px solid grey;
 `;
 
@@ -112,6 +111,7 @@ const Image = styled.img`
   object-fit: fill;
   height: 350px;
   width: 100%;
+  cursor: pointer;
 `;
 
 const Text = styled.div`
