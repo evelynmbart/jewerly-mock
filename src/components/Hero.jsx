@@ -26,7 +26,13 @@ export function Hero() {
       <Bottom>
         <Left>
           <TextBox>
-            <h3 style={{ fontSize: "50px", fontWeight: "normal" }}>
+            <h3
+              style={{
+                fontSize: "50px",
+                fontWeight: "normal",
+                cursor: "pointer",
+              }}
+            >
               <em>Gifts for her</em>
             </h3>
             <p
@@ -38,7 +44,7 @@ export function Hero() {
               got easier! Explore our curated collection of thoughtful, unique,
               and stunning gifts designed to make her feel truly cherished.
               <ArrowIcon>
-                <TrendingFlatIcon />
+                <TrendingFlatIcon style={{ cursor: "pointer" }} />
               </ArrowIcon>
             </p>
           </TextBox>
