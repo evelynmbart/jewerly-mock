@@ -5,6 +5,7 @@ import { Hero } from "./components/Hero";
 import { History } from "./components/History";
 import { More } from "./components/More";
 import { Navbar } from "./components/Navbar";
+import { Socials } from "./components/Socials";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <More />
       <DontMiss />
       <History />
+      <Socials />
     </>
   );
 }

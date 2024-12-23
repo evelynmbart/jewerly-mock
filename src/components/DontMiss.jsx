@@ -37,13 +37,14 @@ const Title = styled.div`
 `;
 
 const Right = styled.div`
-  width: 40%;
+  width: 57%;
   display: flex;
   align-items: center;
+  margin-right: 12px;
 `;
 
 const Input = styled.input`
-  width: 50%;
+  width: 48%;
   padding: 8px 0;
   text-indent: 5px;
   height: 20px;
